@@ -57,26 +57,11 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: 'Mobile & desktop',
-    tags: [
-      'Flutter / Dart',
-      'Cordova',
-      'PhoneGap',
-      'Ionic 1–4',
-      'Electron',
-      'Android Studio',
-    ],
+    tags: ['Flutter / Dart', 'Cordova', 'PhoneGap', 'Ionic 1–4', 'Electron', 'Android Studio'],
   },
   {
     title: 'Build & tooling',
-    tags: [
-      'Vite',
-      'Webpack',
-      'Gulp.js',
-      'Yarn',
-      'Storybook',
-      'PowerShell',
-      'WebStorm / PhpStorm',
-    ],
+    tags: ['Vite', 'Webpack', 'Gulp.js', 'Yarn', 'Storybook', 'PowerShell', 'WebStorm / PhpStorm'],
   },
   {
     title: 'Delivery & workflow',
@@ -93,11 +78,6 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: 'Leadership',
-    tags: [
-      'Team leadership',
-      'Mentoring',
-      'Code review',
-      'Architecture & release ownership',
-    ],
+    tags: ['Team leadership', 'Mentoring', 'Code review', 'Architecture & release ownership'],
   },
 ]

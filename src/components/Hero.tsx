@@ -18,7 +18,8 @@ export function Hero() {
             I build and ship web &amp; mobile products — and lead the teams that deliver them.
           </p>
           <div className="status">
-            <span className="ok">●</span> Open to remote or hybrid work <span className="caret"></span>
+            <span className="ok">●</span> Open to remote or hybrid work{' '}
+            <span className="caret"></span>
           </div>
         </div>
         <div className="portrait reveal in">

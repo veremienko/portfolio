@@ -1,15 +1,73 @@
-.proj{display:grid;grid-template-columns:1fr auto;gap:28px;align-items:baseline;
-  padding:22px 0;border-top:1px solid var(--line-soft);transition:padding-left .3s ease}
-.proj:first-of-type{border-top:none}
-a.proj:hover{padding-left:10px}
-.proj__name{font-family:var(--serif);font-weight:400;font-size:24px;line-height:1.15;display:flex;align-items:center;gap:12px;transition:color .25s}
-a.proj:hover .proj__name{color:var(--brass)}
-.proj__arrow{font-family:var(--sans);font-size:15px;color:var(--muted);transition:transform .3s ease,color .25s}
-a.proj:hover .proj__arrow{color:var(--brass);transform:translate(3px,-3px)}
-.proj__desc{margin-top:5px;color:var(--muted);font-size:14.5px;line-height:1.55;max-width:52ch}
-.proj__meta{text-align:right;display:flex;flex-direction:column;gap:3px;white-space:nowrap}
-.proj__yr{color:var(--ink);font-size:12px}
-.proj__co{font-size:11px;color:var(--brass)}
-@media (max-width:820px){
-  .proj{grid-template-columns:1fr;gap:8px} .proj__meta{text-align:left;flex-direction:row;gap:12px}
+.proj {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 28px;
+  align-items: baseline;
+  padding: 22px 0;
+  border-top: 1px solid var(--line-soft);
+  transition: padding-left 0.3s ease;
+}
+.proj:first-of-type {
+  border-top: none;
+}
+a.proj:hover {
+  padding-left: 10px;
+}
+.proj__name {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.15;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: color 0.25s;
+}
+a.proj:hover .proj__name {
+  color: var(--brass);
+}
+.proj__arrow {
+  font-family: var(--sans);
+  font-size: 15px;
+  color: var(--muted);
+  transition:
+    transform 0.3s ease,
+    color 0.25s;
+}
+a.proj:hover .proj__arrow {
+  color: var(--brass);
+  transform: translate(3px, -3px);
+}
+.proj__desc {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.55;
+  max-width: 52ch;
+}
+.proj__meta {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  white-space: nowrap;
+}
+.proj__yr {
+  color: var(--ink);
+  font-size: 12px;
+}
+.proj__co {
+  font-size: 11px;
+  color: var(--brass);
+}
+@media (max-width: 820px) {
+  .proj {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .proj__meta {
+    text-align: left;
+    flex-direction: row;
+    gap: 12px;
+  }
 }

@@ -18,7 +18,8 @@ export const projects: Project[] = [
     name: 'LifeMD',
     years: '2021 — 2026',
     company: 'Ekreative',
-    description: 'US telehealth platform — online access to board-certified doctors, same-day care.',
+    description:
+      'US telehealth platform — online access to board-certified doctors, same-day care.',
     url: 'https://lifemd.com/',
   },
   {
@@ -32,7 +33,8 @@ export const projects: Project[] = [
     name: 'LifeBase Solutions',
     years: '2018 — 2019',
     company: 'Ekreative',
-    description: 'Nutrition coaching software — manage hundreds of clients, with a meal-tracking app and progress analytics.',
+    description:
+      'Nutrition coaching software — manage hundreds of clients, with a meal-tracking app and progress analytics.',
     url: 'https://www.lifebasesolutions.com/',
   },
   {
