@@ -25,6 +25,30 @@ export function Contact() {
           >
             <span>LinkedIn</span> /andrii-veremiienko
           </a>
+          <a
+            className="clink"
+            href="https://www.instagram.com/verem1enko/"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Instagram</span> @verem1enko
+          </a>
+          <a
+            className="clink"
+            href="https://www.facebook.com/andrij.veremienko/"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Facebook</span> /andrij.veremienko
+          </a>
+          <a
+            className="clink"
+            href="https://www.twitch.tv/verem1enko"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>Twitch</span> /verem1enko
+          </a>
         </div>
       </div>
     </section>
