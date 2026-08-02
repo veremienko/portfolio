@@ -49,6 +49,9 @@ export function Contact() {
           >
             <span>Twitch</span> /verem1enko
           </a>
+          <a className="clink" href="https://x.com/veremienko07" target="_blank" rel="noopener">
+            <span>X</span> @veremienko07
+          </a>
         </div>
       </div>
     </section>
