@@ -17,16 +17,15 @@ npm install
 npm run dev
 ```
 
-## Custom domain
+## Custom domain (planned: veremiienko.dev)
 
-Site URLs (canonical, Open Graph, sitemap) point to `https://veremiienko.dev`.
 After buying the domain:
 
 1. Firebase Console → Hosting → Add custom domain → `veremiienko.dev` (check "redirect www").
 2. Add the TXT record Firebase shows to the domain's DNS to verify ownership.
 3. Add the A records Firebase shows. SSL is provisioned automatically (~15-60 min).
-
-Until then the site is live at https://veremiienko.web.app.
+4. Replace `https://veremiienko.web.app` with `https://veremiienko.dev` in `index.html`,
+   `public/robots.txt` and `public/sitemap.xml`.
 
 ## Deploy
 
