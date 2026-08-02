@@ -38,3 +38,30 @@
   border-color: var(--brass);
   color: var(--brass-deep);
 }
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 36px;
+}
+.sicon {
+  width: 46px;
+  height: 46px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  transition:
+    border-color 0.25s,
+    color 0.25s,
+    transform 0.25s,
+    background 0.25s;
+}
+.sicon:hover {
+  border-color: var(--brass);
+  color: var(--brass-deep);
+  background: var(--paper-2);
+  transform: translateY(-2px);
+}
