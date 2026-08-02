@@ -1,22 +1,25 @@
 # Portfolio
 
-Personal portfolio site of Andrii Veremiienko, hosted on Firebase Hosting.
+Personal portfolio site of Andrii Veremiienko. Vite + React + TypeScript, hosted on Firebase Hosting.
 
 ## Structure
 
-- `public/` — static site (HTML, CSS, JS, assets)
-- `firebase.json` — Firebase Hosting config
+- `src/components/` — one component per page section
+- `src/data/` — site content (jobs, projects, skills, education)
+- `src/styles/` — one stylesheet per section
+- `src/hooks/` — shared hooks
+- `firebase.json` — Firebase Hosting config (serves `dist`)
 
-## Local preview
+## Development
 
 ```sh
-npx serve public
+npm install
+npm run dev
 ```
 
 ## Deploy
 
 ```sh
-firebase login
-firebase use <project-id>
+npm run build
 firebase deploy --only hosting
 ```

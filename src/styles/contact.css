@@ -1,0 +1,6 @@
+.contact h2.big{font-family:var(--serif);font-weight:400;font-size:clamp(48px,10vw,120px);line-height:.95;letter-spacing:-.02em;margin-bottom:36px}
+.contact h2.big em{font-style:italic;color:var(--brass)}
+.contact__row{display:flex;flex-wrap:wrap;gap:14px 40px;align-items:center}
+.clink{font-family:var(--mono);font-size:14px;letter-spacing:.03em;display:inline-flex;align-items:center;gap:10px;padding:12px 0;border-bottom:1px solid var(--line);transition:border-color .3s,color .3s}
+.clink span{color:var(--muted);text-transform:uppercase;font-size:11px}
+.clink:hover{border-color:var(--brass);color:var(--brass-deep)}
