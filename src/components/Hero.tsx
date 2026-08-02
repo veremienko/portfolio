@@ -22,9 +22,9 @@ export function Hero() {
             <span className="caret"></span>
           </div>
         </div>
-        <div className="portrait reveal in">
-          <img src={photo} alt="Andrii Veremiienko" />
-        </div>
+      </div>
+      <div className="portrait reveal in">
+        <img src={photo} alt="Andrii Veremiienko" />
       </div>
     </header>
   )
