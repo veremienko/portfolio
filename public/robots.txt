@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://veremiienko.web.app/sitemap.xml
+Sitemap: https://veremiienko.dev/sitemap.xml
