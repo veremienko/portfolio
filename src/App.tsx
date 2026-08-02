@@ -17,13 +17,15 @@ export function App() {
     <>
       <Nav />
       <Hero />
-      <About />
-      <Work />
-      <Projects />
-      <Skills />
-      <Education />
-      <Ai />
-      <Contact />
+      <main>
+        <About />
+        <Work />
+        <Projects />
+        <Skills />
+        <Education />
+        <Ai />
+        <Contact />
+      </main>
       <Footer />
     </>
   )
