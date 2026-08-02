@@ -17,14 +17,19 @@ export function Hero() {
           <p className="lede">
             I build and ship web &amp; mobile products — and lead the teams that deliver them.
           </p>
-          <div className="status">
-            <span className="ok">●</span> Open to remote or hybrid work{' '}
-            <span className="caret"></span>
+          <div className="hero__actions">
+            <div className="status">
+              <span className="ok">●</span> Open to remote or hybrid work{' '}
+              <span className="caret"></span>
+            </div>
+            <a className="cv-btn" href="/cv.pdf" download="Andrii-Veremiienko-CV.pdf">
+              Download CV ↓
+            </a>
           </div>
         </div>
       </div>
       <div className="portrait reveal in">
-        <img src={photo} alt="Andrii Veremiienko" />
+        <img src={photo} alt="Andrii Veremiienko" width="3514" height="5268" />
       </div>
     </header>
   )

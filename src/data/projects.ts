@@ -41,12 +41,13 @@ export const projects: Project[] = [
     name: 'Virtuprofs',
     years: '2018',
     company: 'Pascalium',
-    url: 'https://virtuprofs.com/',
+    description: 'Platform connecting clients with virtual professionals.',
   },
   {
     name: 'Kokoro',
     years: '2018',
     company: 'Pascalium',
+    description: 'Leadership development platform — team analytics and adaptive micro-learning.',
     url: 'https://bekokoro.com/',
   },
   {
@@ -85,6 +86,7 @@ export const projects: Project[] = [
     name: 'Papirux',
     years: '2015',
     company: 'Pascalium',
+    description: 'Web design & digital marketing agency website.',
     url: 'https://papirux.com/',
   },
   {
@@ -98,6 +100,7 @@ export const projects: Project[] = [
     name: 'Humanee',
     years: '2015',
     company: 'Pascalium',
+    description: 'Venture studio building consumer brands and products.',
     url: 'http://www.humanee.com/',
   },
 ]
