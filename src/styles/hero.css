@@ -79,9 +79,9 @@ h1.name em {
 }
 .portrait {
   position: absolute;
-  top: 64px;
+  top: -70px;
   right: 0;
-  bottom: -70px;
+  bottom: 0;
   width: 50vw;
   overflow: hidden;
 }
