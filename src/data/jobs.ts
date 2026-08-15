@@ -10,7 +10,7 @@ export const jobs: Job[] = [
   {
     dates: '2021 — 2026',
     location: 'Cherkasy',
-    role: 'Project Team Lead',
+    role: 'Frontend Team Lead',
     company: 'Ekreative',
     bullets: [
       'Lead a cross-functional team, owning delivery end to end — from architecture and estimation through release and production support.',
