@@ -3,6 +3,12 @@ export const aiIntro =
 
 export const aiTags = [
   'Claude Code',
+  'Claude Cowork',
+  'Codex',
+  'Copilot',
+  'Gemini',
+  'Grog',
+  'Ollama',
   'Claude Code subagents',
   'LangChain / LangGraph',
   'RAG',
