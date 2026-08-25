@@ -13,10 +13,16 @@ export const jobs: Job[] = [
     role: 'Frontend Team Lead',
     company: 'Ekreative',
     bullets: [
-      'Lead a cross-functional team, owning delivery end to end — from architecture and estimation through release and production support.',
-      'Owned frontend & full-stack delivery for a US telehealth platform: React, TypeScript, Vite, Tailwind — real-time video and secure messaging (Zoom SDK, Twilio, WebSocket).',
-      'Designed CI/CD (GitHub Actions) and production monitoring (Datadog, Sentry); drove complex refactors on a large, long-lived codebase.',
-      'Introduced AI-assisted workflows (Claude Code, n8n) across the team; mentor through code review, pairing and architecture guidance.',
+      'Lead a cross-functional development team, owning delivery end to end — from architecture and estimation through release and production support.',
+      'Owned frontend & full-stack delivery for a US telehealth platform (React, TypeScript, Vite, Tailwind CSS) with real-time video consultations and secure messaging (Zoom SDK, Twilio, WebSocket).',
+      'Designed and maintained CI/CD pipelines (GitHub Actions) and production monitoring/alerting (Datadog, Sentry), improving release reliability and reducing time-to-deploy.',
+      'Introduced AI-assisted development workflows (Claude Code, n8n automations) across the team, cutting repetitive work and speeding up delivery.',
+      'Mentored developers through code review, pairing and technical guidance; set coding standards and led key technical decisions.',
+      'Drove complex refactors and architecture decisions on a large, long-lived codebase, keeping it maintainable while the product and team scaled.',
+      'Created a design system subproject to implement consistent UI components and styling across multiple projects, reducing development time and ensuring visual consistency.',
+      'Restructured a large monolithic project following Feature-Sliced Design (FSD) principles, improving code organization and maintainability across the codebase.',
+      'Worked with Lighthouse and AWS performance metrics to identify bottlenecks, collect data, and optimize application performance for better user experience.',
+      'Refactored and rewrote a video conferencing module from Twilio to Zoom Web SDK, improving performance and reducing integration complexity.'
     ],
   },
   {
