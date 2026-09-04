@@ -22,7 +22,7 @@ export const jobs: Job[] = [
       'Created a design system subproject to implement consistent UI components and styling across multiple projects, reducing development time and ensuring visual consistency.',
       'Restructured a large monolithic project following Feature-Sliced Design (FSD) principles, improving code organization and maintainability across the codebase.',
       'Worked with Lighthouse and AWS performance metrics to identify bottlenecks, collect data, and optimize application performance for better user experience.',
-      'Refactored and rewrote a video conferencing module from Twilio to Zoom Web SDK, improving performance and reducing integration complexity.'
+      'Refactored and rewrote a video conferencing module from Twilio to Zoom Web SDK, improving performance and reducing integration complexity.',
     ],
   },
   {
