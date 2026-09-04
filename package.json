@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "cv:pdf": "node scripts/html-to-pdf.mjs public/Andrii_Veremiienko_CV.html public/cv.pdf",
+    "prepare": "git config core.hooksPath .githooks || true",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },

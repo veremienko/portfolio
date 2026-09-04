@@ -3,6 +3,12 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches: [main]
+  workflow_dispatch:
+
+# Never let two deploys race; a newer push supersedes an in-flight one.
+concurrency:
+  group: deploy-live
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -14,7 +20,10 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      # Formatting is enforced on PRs (preview.yml) and by the pre-commit hook.
+      # Here it only reports, so a stray whitespace never blocks a live deploy.
       - run: npm run format:check
+        continue-on-error: true
       - run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:

@@ -1,0 +1,8 @@
+#!/bin/sh
+# Auto-format staged files so CI's `npm run format:check` never blocks a deploy.
+files=$(git diff --cached --name-only --diff-filter=ACMR |
+  grep -Ei '\.(js|jsx|ts|tsx|mjs|cjs|json|css|scss|html|md|ya?ml)$' || true)
+[ -z "$files" ] && exit 0
+
+echo "$files" | xargs npx --no-install prettier --write --ignore-unknown || exit 1
+echo "$files" | xargs git add
