@@ -13,7 +13,7 @@ export const jobs: Job[] = [
     role: 'Frontend Team Lead',
     company: 'Ekreative',
     bullets: [
-      'Lead a cross-functional development team, owning delivery end to end — from architecture and estimation through release and production support.',
+      'Led a cross-functional development team, owning delivery end to end — from architecture and estimation through release and production support.',
       'Owned frontend & full-stack delivery for a US telehealth platform (React, TypeScript, Vite, Tailwind CSS) with real-time video consultations and secure messaging (Zoom SDK, Twilio, WebSocket).',
       'Designed and maintained CI/CD pipelines (GitHub Actions) and production monitoring/alerting (Datadog, Sentry), improving release reliability and reducing time-to-deploy.',
       'Introduced AI-assisted development workflows (Claude Code, n8n automations) across the team, cutting repetitive work and speeding up delivery.',

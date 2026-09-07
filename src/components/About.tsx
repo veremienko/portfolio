@@ -4,7 +4,8 @@ export function About() {
       <div className="wrap">
         <div className="cols">
           <p className="reveal">
-            Eleven years building for the web. Seven leading delivery at Ekreative.
+            Full-stack developer with a frontend-heavy background, growing into backend. Led
+            delivery at Ekreative.
           </p>
           <div className="side reveal">
             Hands-on full-stack engineering across <b>React, TypeScript, Node.js and AWS</b>, paired
