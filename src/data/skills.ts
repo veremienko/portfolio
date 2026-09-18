@@ -17,6 +17,7 @@ export const skillGroups: SkillGroup[] = [
       'jQuery',
       'Chart.js',
       'JSON',
+      'Zod',
       'Cross-browser compatibility',
     ],
   },
@@ -42,6 +43,7 @@ export const skillGroups: SkillGroup[] = [
     title: 'Backend & data',
     tags: [
       'Node.js',
+      'Python',
       'Full-stack development',
       'gRPC',
       'PostgreSQL',
