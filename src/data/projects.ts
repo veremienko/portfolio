@@ -10,14 +10,14 @@ export const projects: Project[] = [
   {
     name: 'Jazel',
     years: '2026 — Present',
-    company: 'Ekreative',
+    company: 'eKreative',
     description: 'Automotive websites, SEO and vehicle listings for car dealerships.',
     url: 'https://www.jazel.com/',
   },
   {
     name: 'LifeMD',
     years: '2021 — 2026',
-    company: 'Ekreative',
+    company: 'eKreative',
     description:
       'US telehealth platform — online access to board-certified doctors, same-day care.',
     url: 'https://lifemd.com/',
@@ -25,14 +25,14 @@ export const projects: Project[] = [
   {
     name: 'ScreenCoach',
     years: '2019 — 2021',
-    company: 'Ekreative',
+    company: 'eKreative',
     description: 'Family screen-time & lifestyle management system. Built with Flutter.',
     url: 'https://www.myscreencoach.com/',
   },
   {
     name: 'LifeBase Solutions',
     years: '2018 — 2019',
-    company: 'Ekreative',
+    company: 'eKreative',
     description:
       'Nutrition coaching software — manage hundreds of clients, with a meal-tracking app and progress analytics.',
     url: 'https://www.lifebasesolutions.com/',

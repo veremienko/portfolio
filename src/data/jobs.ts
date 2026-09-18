@@ -11,7 +11,7 @@ export const jobs: Job[] = [
     dates: '2021 — 2026',
     location: 'Cherkasy',
     role: 'Frontend Team Lead',
-    company: 'Ekreative',
+    company: 'eKreative',
     bullets: [
       'Led a cross-functional development team, owning delivery end to end — from architecture and estimation through release and production support.',
       'Owned frontend & full-stack delivery for a US telehealth platform (React, TypeScript, Vite, Tailwind CSS) with real-time video consultations and secure messaging (Zoom SDK, Twilio, WebSocket).',
@@ -29,7 +29,7 @@ export const jobs: Job[] = [
     dates: '2019 — 2021',
     location: 'Cherkasy',
     role: 'Web Developer',
-    company: 'Ekreative',
+    company: 'eKreative',
     bullets: [
       'Built and maintained production web applications with Angular, TypeScript and NgRx.',
       'Developed cross-platform mobile apps with Flutter.',
