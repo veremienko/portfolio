@@ -1,4 +1,4 @@
-import { aiIntro, aiTags } from '../data/ai'
+import { aiIntro, aiTags, aiTalk } from '../data/ai'
 
 export function Ai() {
   return (
@@ -9,6 +9,7 @@ export function Ai() {
         </div>
         <div className="inner reveal">
           <p>{aiIntro}</p>
+          <p className="ai__talk">{aiTalk}</p>
           <ul className="tags">
             {aiTags.map((tag) => (
               <li key={tag} className="tag tag--brass">

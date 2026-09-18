@@ -31,8 +31,9 @@ export const jobs: Job[] = [
     role: 'Web Developer',
     company: 'Ekreative',
     bullets: [
-      'Built and maintained production web apps with React, TypeScript, NgRx and modern tooling.',
-      'Worked across the stack with designers and backend engineers to ship features end to end.',
+      'Built and maintained production web applications with Angular, TypeScript and NgRx.',
+      'Developed cross-platform mobile apps with Flutter.',
+      'Worked across the stack on client products, collaborating with designers and backend engineers to ship features end to end.',
     ],
   },
   {

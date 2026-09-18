@@ -23,6 +23,14 @@
   color: #efece2;
   margin-bottom: 30px;
 }
+.ai p.ai__talk {
+  font-family: var(--mono);
+  font-size: 13.5px;
+  line-height: 1.6;
+  max-width: 60ch;
+  color: var(--brass-bright);
+  margin-top: -14px;
+}
 .ai .tags {
   gap: 10px;
 }
