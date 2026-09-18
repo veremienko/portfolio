@@ -12,11 +12,9 @@ export const skillGroups: SkillGroup[] = [
       'React',
       'Next.js',
       'Vue.js',
-      'Angular 1–6 / AngularJS',
+      'Angular',
       'NgRx',
-      'jQuery',
       'Chart.js',
-      'JSON',
       'Zod',
       'Cross-browser compatibility',
     ],
@@ -28,13 +26,11 @@ export const skillGroups: SkillGroup[] = [
       'Semantic HTML',
       'CSS',
       'SASS / SCSS',
-      'LESS',
       'Tailwind CSS',
       'Bootstrap',
       'Material Design',
       'Angular Material',
       'PrimeNG',
-      'PUG / Jade',
       'Figma',
       'Photoshop',
     ],
@@ -44,7 +40,6 @@ export const skillGroups: SkillGroup[] = [
     tags: [
       'Node.js',
       'Python',
-      'Full-stack development',
       'gRPC',
       'PostgreSQL',
       'Prisma',
@@ -61,11 +56,11 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: 'Mobile & desktop',
-    tags: ['Flutter / Dart', 'Cordova', 'PhoneGap', 'Ionic 1–4', 'Electron', 'Android Studio'],
+    tags: ['Flutter / Dart', 'Electron'],
   },
   {
     title: 'Build & tooling',
-    tags: ['Vite', 'Webpack', 'Gulp.js', 'Yarn', 'Storybook', 'PowerShell', 'WebStorm / PhpStorm'],
+    tags: ['Vite', 'Webpack', 'Yarn', 'Storybook'],
   },
   {
     title: 'Delivery & workflow',
@@ -84,4 +79,14 @@ export const skillGroups: SkillGroup[] = [
     title: 'Leadership',
     tags: ['Team leadership', 'Mentoring', 'Code review', 'Architecture & release ownership'],
   },
+]
+
+export const earlierSkills: string[] = [
+  'AngularJS',
+  'jQuery',
+  'Ionic 1–4',
+  'Cordova / PhoneGap',
+  'Gulp',
+  'LESS',
+  'PUG / Jade',
 ]

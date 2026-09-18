@@ -1,4 +1,4 @@
-import { skillGroups } from '../data/skills'
+import { earlierSkills, skillGroups } from '../data/skills'
 
 export function Skills() {
   return (
@@ -21,6 +21,9 @@ export function Skills() {
             </div>
           ))}
         </div>
+        <p className="skills-earlier reveal">
+          <span className="skills-earlier__label">Earlier:</span> {earlierSkills.join(', ')}
+        </p>
       </div>
     </section>
   )
