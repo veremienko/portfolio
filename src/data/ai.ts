@@ -7,7 +7,7 @@ export const aiTags = [
   'Codex',
   'Copilot',
   'Gemini',
-  'Grog',
+  'Grok',
   'Ollama',
   'Claude Code subagents',
   'LangChain / LangGraph',
