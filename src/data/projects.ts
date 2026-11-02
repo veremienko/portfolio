@@ -8,8 +8,23 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    name: 'Jazel',
+    name: 'NICO&CO',
     years: '2026 — Present',
+    company: 'Own project',
+    description:
+      'E-commerce platform built and launched solo: web store, admin panel and Node.js/Fastify + PostgreSQL backend with Monobank payments. Docker on Hetzner, Cloudflare (DNS, CDN, R2), Sentry.',
+    url: 'https://nico-co.com.ua/',
+  },
+  {
+    name: 'AI bots & automations',
+    years: '',
+    company: 'Own project',
+    description:
+      'AI-powered Telegram & WhatsApp bots on n8n — a weekly competitor-analysis digest, an LLM content-curation bot, and a self-hosted OpenClaw assistant on Kubernetes.',
+  },
+  {
+    name: 'Jazel',
+    years: '2026',
     company: 'eKreative',
     description: 'Automotive websites, SEO and vehicle listings for car dealerships.',
     url: 'https://www.jazel.com/',

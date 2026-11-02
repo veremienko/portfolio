@@ -7,7 +7,7 @@ export function Hero() {
         <div>
           <div className="eyebrow">
             <span className="dot"></span>
-            <span className="mono">Full-Stack Developer · Cherkasy, Ukraine</span>
+            <span className="mono">Frontend Team Lead · Full-Stack · Cherkasy, Ukraine</span>
           </div>
           <h1 className="name">
             Andrii

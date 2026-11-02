@@ -12,6 +12,7 @@ export const aiTags = [
   'Gemini',
   'Grok',
   'Ollama',
+  'OpenClaw',
   'Claude Code subagents',
   'LangChain / LangGraph',
   'RAG',

@@ -39,6 +39,7 @@ export const skillGroups: SkillGroup[] = [
     title: 'Backend & data',
     tags: [
       'Node.js',
+      'Fastify',
       'Python',
       'gRPC',
       'PostgreSQL',
@@ -53,6 +54,10 @@ export const skillGroups: SkillGroup[] = [
       'AWS',
       'Heroku',
     ],
+  },
+  {
+    title: 'DevOps & infrastructure',
+    tags: ['Docker', 'Kubernetes', 'Hetzner', 'Cloudflare (DNS, CDN, R2)', 'UptimeRobot', 'Brevo'],
   },
   {
     title: 'Mobile & desktop',
